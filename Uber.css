@@ -1,0 +1,704 @@
+
+body{
+    margin: 0%;
+    overflow-x: hidden;
+}
+.box1 {
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.nave {
+    height: 60px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.nave2{
+    height: 60px;
+    width: 50%;
+    color: white;
+}
+.log{
+    display: flex;
+    list-style: none;
+    margin-top: 3px;
+}
+.english{
+    display: flex;
+    list-style: none;
+}
+.img{
+    width: 15px;
+    height: 15px;
+    margin-top: 27px;
+}
+.font1{
+    font-family: Arial;
+    font-size: 15px;
+    margin-top: 26px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.font2{
+    font-family: Arial;
+    font-size: 15px;
+    margin-top: 24px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.font3{
+    font-family: Arial;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-left: 36px;
+    font-weight: bold;
+}
+.button{
+    font-family: Arial;
+    font-size: 15px;
+    margin-top: 19px;
+    margin-left: 36px;
+    font-weight: bold;
+    border: none;
+    border-radius: 19px;
+    width: 80px;
+    height: 33px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    margin-left: 28px;
+}
+
+.list1 {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+}
+
+.list {
+    margin-left: 20px;
+    font-size: large;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.uber{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 28px;
+}
+.list:hover{
+    background-color: rgb(99, 99, 99);
+    border-radius: 18px;
+}
+.bg{
+   display: flex;
+    height: 100%;
+    width: 100%;
+}
+.ride{
+    position: absolute;
+    height: 516px;
+    width: 580px;
+    background-color: white;
+    margin-top: 63px;
+    margin-left: 372px;
+}
+.mainride{
+    height: 111px;
+    width: 100%;
+    display: flex;
+}
+.ride1{
+    height: 110px;
+    width: 50%;
+    border-bottom: 1px solid rgb(207, 207, 207);
+}
+.ride2{
+    height: 110px;
+    width: 50%;
+    border-bottom: 1px solid rgb(207, 207, 207);
+    align-items: center;
+}
+.car{
+   
+    height: 30px;
+    width: 30px;
+    margin-top: 6px;
+}
+.car1{
+    list-style: none;
+    margin-top: 15px;
+    margin-left: 83px;
+}
+.signal{
+    height: 24px;
+    width: 27px;
+    margin-top: 6px;
+    margin-left: 12px;
+}
+.signal1{
+    list-style: none;
+    margin-top: 15px;
+    margin-left: 83px;
+}
+.text{
+    margin-top: 10px;
+    height: 100px;
+    width: 100%;
+}
+.text1{
+    margin-top: 18px;
+    margin-left: 44px;
+ font-size: 50px;
+ font-family:  UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+ font-weight: 600;
+ font-style: normal;
+}
+.pick{
+    height: 150px;
+    width: 100%;
+}
+.arrow{
+    width: 20%;
+    background-color: #f3f3f3;
+    height: 50px;
+}
+.ar{
+    margin-left: 43px;
+    margin-top: 16px;
+    height: 17px;
+    width: 17px;
+    opacity: 0.5;
+}
+.picked{
+    width: 100%;
+    display: flex;
+}
+
+.pickup{
+    height: 55px;
+    width: 79%;
+    margin-top: 10px;
+    margin-left: 49px;
+  display: flex;
+}
+.des{
+    height: 55px;
+    width: 80%;
+    margin-top: 7px;
+    margin-left: 49px;
+}
+.textbox{
+ border: none;
+    width: 98%;
+    height: 48px;
+    outline:none;
+    font-size: medium; 
+    background-color:#f3f3f3;
+}
+.submit{
+    margin-top: 10px;
+    height: 90px;
+    width: 100%;
+}
+.req{
+    margin-top: 17px;
+    margin-left: 49px;
+    height: 48px;
+    width: 130px;
+    color: white;
+    background-color: black;
+}
+.later{
+    border: none;
+    color: black;
+    margin-top: 17px;
+    margin-left: 30px;
+    height: 48px;
+    width: 130px;
+    background-color: rgb(209, 208, 208);
+}
+.business{ 
+    margin: -5px;
+    width:auto;
+    height: 310px;
+    display: flex;
+}
+.bg2
+{
+    width: 100%;
+    height: 100%;
+}
+.uber2{
+    position: absolute;
+   height: 300px;
+   width: 50%;
+}
+.ufb{
+    margin-left: 375px;
+    margin-top: 17px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    font-style: normal
+}
+.ufb1{
+    font-size: 279%;
+    font-style: normal;
+    margin-left: 372px;
+    margin-top: 53px;
+}
+.see{
+    height: 49px;
+    width: 118px;
+    background-color: black;
+    color: white;
+    margin-top: 35px;
+    margin-left: 376px;
+    font-size: medium;
+}
+.vehicle{
+    height: 92%;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    margin-top: 5px;
+    display: flex;
+}
+.vehicle1{
+    height: 92%;
+    width: 50%;
+}
+.vehicle2{
+    height: 92%;
+    width: 50%;
+}
+.rwu{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 250%;
+    font-weight: 500;
+    margin-top: 67px;
+    margin-left: 383px;
+    color: rgb(26, 25, 25);
+
+}
+.auto{
+    height: 67%;
+    width: 100%;
+}
+.auto1{
+    list-style: none;
+    display: flex;
+    margin-left: 364px;
+    margin-top: 44px;
+}
+.auto2{
+    margin-left: 25px;
+    margin-top: 25px;
+    font-size:large;
+}
+.black{
+    margin-top: 66px;
+    margin-left: 48px;
+    width: 27px;
+    height: 29px;
+}
+.key{
+    height: 54%;
+    width: 96%;
+    display: flex;
+    list-style: none;
+    padding-left: 403px;
+    margin-top: 112px;
+   
+}
+.bike{
+    height: 53%;
+    width: 92%;
+    font-size: large;
+    margin-top: 165px;
+   
+}
+.bike1{
+    display: flex;
+    list-style: none;
+    margin-left: 35px;
+}
+
+.car2{
+    height: 68%;
+    width: 100%;
+    display: flex;
+    list-style: none;
+    margin-left: 37px;
+    margin-top: 109px;
+}
+.pics{
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    top: 183%;
+}
+.go{
+    width: 100%;
+    height: 69px;
+    margin-top: -2%;
+}
+.pic{
+    width: 100%;
+    height: 53%;
+}
+.safety{
+    margin-top: 10px;
+    margin-left: 347px;
+}
+.safe{
+    display: flex;
+    list-style: none;
+}
+.safety1{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.feature{
+    height: 125px;
+    width: 100%;
+}
+.f1{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    list-style: none;
+    display: flex;
+    margin-left: 346px;
+}
+.f2{
+    margin-left: 24px;
+}
+.guide{
+    width: 100%;
+    height: 60px;
+}
+.guide3{
+    font-size: large;
+    font-style: normal;
+    list-style: none;
+    display: flex;
+    margin-left: 305px;
+    color: rgb(66, 65, 65);
+}
+.guide4{
+    margin-left: 40px;
+    border-bottom: 1px solid rgb(156, 155, 155);
+}
+.guide5{
+    margin-left: 109px;
+    border-bottom: 1px solid  rgb(156, 155, 155);
+}
+.details{
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    bottom: -195%;
+    display: flex;
+}
+.about{
+    margin-left: 392px;
+    height: 300px;
+    width: 20%;
+}
+.news{
+  height: 300px;
+  width: 20%;
+
+}
+.global{
+    height: 300px;
+    width: 20%;
+}
+.about1{
+    list-style: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    margin-left: -10%;
+
+}
+.note{
+    height: 25px;
+    width: 29px;
+    margin-left: 6%;
+}
+.about3{
+   
+        list-style: none;
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 100;
+        margin-left: -3%;
+}
+.home{
+    display: flex;
+    margin-left: 40px;
+}
+.home1{
+    list-style: none;
+    font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 100;
+
+}
+.line{
+    text-decoration: underline;
+     text-decoration-color: rgb(202, 201, 201);
+}
+.apps{
+    height: 450px;
+    width: 100%;
+    background-color:#f3f3f3;
+    position: relative;
+    bottom: -1700px;
+}
+.driver{
+    height: 191px;
+    width: 600px;
+    background-color: white;
+    margin-top: 29px;
+    margin-left: 386px;
+    border: 1px solid rgb(231, 227, 227);
+    display: flex;
+}
+.app{
+    height: 191px;
+    width: 600px;
+    background-color: white;
+    margin-top: 29px;
+    margin-left: 30px;
+    border: 1px solid rgb(231, 227, 227);
+    display: flex;
+
+}
+.app1{
+    display: flex;
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.logo1{
+    font-size: 180%;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 69px;
+    margin-left: 17px;
+}
+.black1{
+    margin-top: 79px;
+    margin-left: 48px;
+    width: 24px;
+    height: 29px;
+}
+.signup{
+    height: 168px;
+    width: 100%;
+    position: relative;
+    bottom: -1702px;
+    display: flex;
+    color: rgb(63, 58, 58);
+}
+.signup1{
+    height: 168px;
+    width: 53%;
+    display: flex;
+}
+.signup2{
+    height: 168px;
+    width: 47%;
+}
+.s1{
+    list-style: none;
+    display: flex;
+}
+.s2{
+    margin-top: 51px;
+    margin-left: 348px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 250%;
+    font-weight: 500;
+}
+.s3{
+    margin-top: 62px;
+    margin-left: 245px;
+    height: 48px;
+    width: 48px;
+}
+.s4{
+    list-style: none;
+    display: flex;
+}
+.s5{
+    margin-top: 51px;
+    margin-left: -17px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 250%;
+    font-weight: 500;
+}
+.s6{
+    margin-top: 62px;
+    margin-left: 245px;
+    height: 48px;
+    width: 48px;
+}
+.last{
+    width: 100%;
+    height: 900px;
+    background-color: black;
+    position: relative;
+    bottom: -1715px;
+    display: flex;
+    color: white;
+}
+.help{
+    width: 31%;
+    height: 900px;
+}
+.products{
+    width: 25%;
+    height: 900px;
+}
+.gc{
+    width: 25%;
+    height: 900px;
+}
+.travel{
+    width: 36%;
+    height: 900px;
+}
+.h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 101px;
+    margin-left: 301px;
+
+}
+.h4{
+    margin-top: 40px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif ;
+    margin-left: 303px;
+}
+.h2{
+    list-style: none;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.h5{
+    margin-top: 75px;
+    list-style: none;
+    margin-left: 314px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h7{
+    margin-top: 25px;
+}
+.icons{
+    list-style: none;
+    display: flex;
+    margin-top: 83px;
+    margin-left: 285px;
+}
+.ic{
+    margin-left: 28px;
+    height: 18px;
+    width: 18px;
+    
+}
+.pro{
+    margin-top: 268px;
+    list-style: none;
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.eng1{
+    display: flex;
+    list-style: none;
+    margin-top: 206px;
+    margin-left: 39px;
+}
+.glo{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    margin-top: 1px;
+}
+.font{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    
+}
+.loc{
+    display: flex;
+    list-style: none;
+   margin-left: 133px;
+  margin-top: -35px;
+}
+.gc1{
+    margin-top: 275px;
+    list-style: none;
+    margin-left: -28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.t{
+    margin-top: 279px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-left: 10px;
+}
+.store{
+    display: flex;
+    list-style: none;
+    margin-top: 244px;
+    
+}
+.google{
+    width: 128px;
+    height: 179px;
+    margin-left: 10px;
+}
+.apple{
+    width: 128px;
+    height: 179px;
+    margin-left: 10px;
+}
+.para{
+    margin-top: 78px;
+    margin-left: 355px;
+    font-size: small;
+    color: grey;
+}
+.para2{
+    
+    font-size: small;
+    color: grey;
+    list-style: none;
+    display: flex;
+    margin-left: 18px;
+    margin-top: -8px;
+
+}
+.p2{
+    margin-left: 30px;
+}
